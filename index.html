@@ -25,35 +25,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-      <i class="fa fa-bars"></i>
-    </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
-          <i class="fa fa-times"></i>
-        </a>
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#top">Start Bootstrap</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#top">Home</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
-      </li>
-    </ul>
-  </nav>
+
 
   <!-- Header 
     <header class="header" id="top">
@@ -65,21 +37,97 @@
       </div>
     </header>
     -->
-  <header class="header" id="top">
-    <div class="text-vertical-center">
-      <img class="img-portfolio img-fluid" src="img/logomin.png">
+
+
+  <nav class="navbar navbar-expand-md navbar-black fixed-top bg-opacity">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link navlinks" href="#">Agenda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estrutura</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
     </div>
+  </nav>
+
+  <header class="header" id="top">
+    <img class="img-portfolio img-fluid img-header" src="img/logomin.png">
   </header>
 
   <!-- About -->
   <section id="about" class="about">
     <div class="container text-center">
-      <h2>Com mais de 1.000 m² de área construída, a Sociedade Nova Blumenau é o lugar ideal para você que procura um lugar para
-        passar suas horas de lazer. Bem localizada e de fácil acesso você encontrará um estacionamento seguro e amplo com
-        mais de 300 vagas.
+      <h2>Com mais de 1.000 m² de área construída e amplo estacionamento com mais de 300 vagas.
       </h2>
     </div>
     <!-- /.container -->
+  </section>
+
+  <section id="portfolio-container" class="padding-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h1 class="padding-b-25">Galeria</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div style="clear:both;"></div>
+        <div id="portfolio">
+          <div class="tile scale-anm web all advertising">
+            <img src="img/capa1.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm bcards all">
+            <img src="img/capa2.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm web all">
+            <img src="img/capa3.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm web all">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm  advertising">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm bcards all">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm flyers all advertising">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm flyers all">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+          <div class="tile scale-anm web all flyers">
+            <img src="img/capa0.jpg" alt="" />
+          </div>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+
+    <!-- nav bar galeria  -->
+    <div class="container text-center">
+      <nav aria-label="Page navigation" class="navGallery" id="navGalleryItem">
+
+      </nav>
+    </div>
+
   </section>
 
   <!-- Services -->
@@ -163,73 +211,33 @@
     </div>
   </aside>
 
-  <!-- Portfolio -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center">
-          <h1>Galeria</h1>
-          <hr class="small">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="portfolio-item img-portfolio">
-                <a data-toggle="modal" data-target=".bd-example-modal-lg">
-                    <img class="img-fluid" src="img/capa0.jpg">
-                  </a>
-                <p>21 - 08 - 2017</p>
-                <h4>Alma e Coração + Ivonir Machado - San Marino</h4>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/capa1.jpg">
-                  </a>
-                <p>14 - 08 - 2017</p>
-                <h4>Grupo Talagasso - Alma e Coração</h4>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/capa2.jpg">
-                  </a>
-                <p>07 - 08 - 2017</p>
-                <h4> São Francisco - Alma e Coração</h4>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/capa3.jpg">
-                  </a>
-                <p>31 - 07 - 2017</p>
-                <h4>Alma e Coração - Sorriso Lindo</h4>
-              </div>
-            </div>
-          </div>
-          <!-- /.row (nested) -->
 
-          <!-- nav bar galeria -->
-          <nav aria-label="Page navigation" class="navGallery" id="navGalleryItem">
 
-          </nav>
-        </div>
-        <!-- /.col-lg-10 -->
-      </div>
-      <!-- /.row -->
-    </div>
-    <!-- /.container -->
-  </section>
 
-  <!-- Call to Action -->
+  <!-- Form contato -->
   <aside class="call-to-action bg-primary text-white">
     <div class="container text-center">
-      <h3 style="text-align: justify;">Nestes anos de sucesso passaram por aqui grandes grupos como Candieiro, os 4 Gaudérios, João Luiz Corrêa, Os Bertussi,
-        Tchê Garotos, Garotos de Ouro, Porca Véia, Os Mateadores, Portal do Sul, Chiquito e Bordoneio, Ivonir Machado, Musical
-        San Francisco, Grupo Minuano, Talagaço, Cia da Vanera, Sorriso Lindo, Grupo Marcação entre muitas outras atrações
-        como shows nacionais de Teodoro & Sampaio, Grupo Tradição, Joaquim & Manoel .</h3>
-      <a href="#" class="btn btn-lg btn-light">Confira as fotos!</a>
+      <div class="container">
+        <form>
+          <div class="form-group row">
+            <label for="inputsubject" class="col-sm-2 col-form-label">Título</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="Informe o título">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Conteúdo</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="conteudoId" rows="3" placeholder="Informe o contúdo"></textarea>
+            </div>
+          </div>
+          <div class="form-group row text-center">
+            <div class="offset-sm-2 col-sm-15">
+              <button type="submit" class="btn btn-lg btn-light">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </aside>
 
@@ -262,7 +270,7 @@
 
             <li>
               <i class="fa fa-envelope-o fa-fw"></i>
-              <a href="mailto:name@example.com">quévimvem@gmail.com</a>
+              <a href="mailto:name@example.com">novablumenau@gmail.com</a>
             </li>
           </ul>
           <br>

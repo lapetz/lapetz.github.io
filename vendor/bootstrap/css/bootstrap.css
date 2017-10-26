@@ -646,6 +646,7 @@ pre code {
   margin-left: -15px;
 }
 
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -3269,7 +3270,7 @@ tbody.collapse.show {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 7rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -5231,7 +5232,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #0E15E4 !important;
+  background-color: #0000cc !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
@@ -6316,6 +6317,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   right: 0;
   left: 0;
   z-index: 1030;
+  height: 5rem;
 }
 
 .fixed-bottom {
