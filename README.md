@@ -1,2 +1,2 @@
-# lapetz.github.io
-Web test
+# SIGHT
+Free Responsive Web Template

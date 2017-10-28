@@ -1,0 +1,25 @@
+.header{
+	background: url('../images/header.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn-sub {
+    border-radius: 0px;
+    color: white;
+    background-color: #4a148c;
+    padding: 10px 25px;
+    border-color: #4a148c;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+.btn-sub:hover{
+    background-color: #fff;
+    border-color: #4a148c;
+    color: #4a148c;
+}
