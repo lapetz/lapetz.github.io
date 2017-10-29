@@ -74,3 +74,18 @@ input[type="username"]:focus, input[type="email"]:focus, input[type="text"]:focu
 input.form-control, .message {
     border-radius: 0px;
 }
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
